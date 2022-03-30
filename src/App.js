@@ -29,7 +29,7 @@ class App extends Component {
       ],
 
       sceneStatus: [
-        ++this.state.sceneStatus[0], 
+        this.state.sceneStatus[0]+1, 
         target.innerText.toLowerCase()
       ]
 
