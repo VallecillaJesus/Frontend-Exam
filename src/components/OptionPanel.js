@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Historical from './Historical';
 import Option from './Option'
 
 export default class Options extends Component {
