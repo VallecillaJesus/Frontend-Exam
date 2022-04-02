@@ -4,7 +4,7 @@ export default class Historical extends Component {
 
   render() {
     return (
-      <div>
+      <div className='historical'>
         <h4>Historial de opciones elegidas: </h4>
         <ul>
           {

@@ -36,7 +36,6 @@ export default class Options extends Component {
         </div>
         <div className='recordatorio'>
           <h3>Seleccion anterior: {this.state.prevSelection || ''}</h3>
-          <Historical historical={this.props.historical}/>
         </div>
 
       </>

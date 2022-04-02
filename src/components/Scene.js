@@ -5,9 +5,11 @@ export default class Scene extends Component {
 
   render() {
     return (
-        <h1 className='historia'>
+      <div className='historia'>
+        <h2 style={{margin:"40px"}}>
           {this.props.scenary || 'FIN'}
-        </h1>
+        </h2>
+      </div>
     )
   }
 }
